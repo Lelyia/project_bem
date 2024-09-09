@@ -25,7 +25,6 @@ body {
     background-color: $base-color;
 
     &__nav {
-        display: flex;
         @include flex-center;
     }
 
