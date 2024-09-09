@@ -15,6 +15,9 @@ body {
 }
 .header__nav {
   display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header__list {
   display: flex;

@@ -1,6 +1,13 @@
 $base-color: #333;
 $padding: 20px;
 
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 body {
     width: 1240px;
     padding: 0;
@@ -19,6 +26,7 @@ body {
 
     &__nav {
         display: flex;
+        @include flex-center;
     }
 
     &__list {
